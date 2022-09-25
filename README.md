@@ -1,1 +1,2 @@
-# DesignPatterns
+# DesignPatterns : 
+Singleton Design Pattern 
