@@ -1,0 +1,16 @@
+Singleton Design Pattern : Bir nesne örneðinden sadece bir kere üretilip , bu nesne örneðinin her zaman kullanýlmasýný öngören bir patterndir.
+	Hedef bir nesnenin örnek deðerinin, bir çok kullanýcý tarafýndan deðiþtiði zaman ayný þekilde kullanýlmasýný amaçlar.
+	En büyük hedeflerden birisi bir nesnenin durumunun kontrol edilmesidir.
+	Bir nesne örneðini, özellikle katmanlar arasýnda geçerken, bu nesne sadece iþlem yapýyor belli bir deðeri tutmuyorsa bu dizayn pattern 
+	kullanýlýr.
+	Örneðin Businnes katmanýnda Manager nesnesi ,içindeki iþlemleri bir method þeklinde yapar.Bin tane kullanýcý olsun , herbiri istek yaptýðýnda 
+	yeniden new lenir.Madem iþlem yapacak bir nesne üretiyoruz ve herkesin bunu kullanmasýný istiyoruz o zaman bu nesneyi bir kez üretip herkesin 
+	kullanýmýna açmamýz gerekir.
+	Ne zaman kullanmamamýz gerekir ? Singleton ile bir nesne ürettiðimiz zaman bu nesne bellekte sabit kalýr.Asp.Net uygulamasýnda singleton manager
+	nesnesi ürettiðimizde ISS'i restart etmeyene kadar,bu nesne ortadan kalkmaz.Dolayýsyla herkes ayný nesneyi kullanacak mý bunu belirlemeliyiz.
+	Ayný zamanda bir nesne, bir kere-nadir kullanýldýðý durumlarda singleton olarak üretmemeliyiz.Çünkü nesne ömrünün iþlem bittiðinde bitmesi 
+	gerekir.Bellekte boþuna yer kaplar.
+	Multi Thread çalýþýlan ortamlarda, eðer bir nesneyi ayný anda iki kullanýcý ister ve o nesne henüz üretilmemiþse ,bu nesneyi kilitleyip iþ 
+	bittikten sonra iþlemi gerçekleþtirebiliriz.Nesneyi üretme iþlemini Lock iþlemi ile yaparýz.
+Factory Method Design Pattern : 
+	
