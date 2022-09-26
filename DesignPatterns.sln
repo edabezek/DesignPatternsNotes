@@ -12,15 +12,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Sing
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadSafeSingleton", "ThreadSafeSingleton\ThreadSafeSingleton.csproj", "{B0E52614-723E-4431-B93D-7E42E023865B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{D74FC6C4-4518-4CDE-B487-8EB4DC6AC1F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{D74FC6C4-4518-4CDE-B487-8EB4DC6AC1F0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{12707067-CE30-4FA8-A08C-0A7F63DECE89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{12707067-CE30-4FA8-A08C-0A7F63DECE89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrototypeDesign", "PrototypeDesign\PrototypeDesign.csproj", "{EC3430F4-0E7A-4EBF-AEB4-08AC54B3DE2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PrototypeDesign", "PrototypeDesign\PrototypeDesign.csproj", "{EC3430F4-0E7A-4EBF-AEB4-08AC54B3DE2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuilderDesign", "BuilderDesign\BuilderDesign.csproj", "{475F6569-27BC-4A8C-8639-0A07BD2372EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderDesign", "BuilderDesign\BuilderDesign.csproj", "{475F6569-27BC-4A8C-8639-0A07BD2372EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FacadeDesign", "FacadeDesign\FacadeDesign.csproj", "{5EFD8A6B-718F-42A3-B763-611FB068F9F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FacadeDesign", "FacadeDesign\FacadeDesign.csproj", "{5EFD8A6B-718F-42A3-B763-611FB068F9F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterDesign", "Adapter\AdapterDesign.csproj", "{504906DB-C1A6-4010-9B90-1E1835A300C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositeDesign", "CompositeDesign\CompositeDesign.csproj", "{83CBD52A-40B4-4F89-8E51-D85BF74CA3F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -56,6 +60,14 @@ Global
 		{5EFD8A6B-718F-42A3-B763-611FB068F9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5EFD8A6B-718F-42A3-B763-611FB068F9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5EFD8A6B-718F-42A3-B763-611FB068F9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{504906DB-C1A6-4010-9B90-1E1835A300C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{504906DB-C1A6-4010-9B90-1E1835A300C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{504906DB-C1A6-4010-9B90-1E1835A300C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{504906DB-C1A6-4010-9B90-1E1835A300C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CBD52A-40B4-4F89-8E51-D85BF74CA3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CBD52A-40B4-4F89-8E51-D85BF74CA3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CBD52A-40B4-4F89-8E51-D85BF74CA3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CBD52A-40B4-4F89-8E51-D85BF74CA3F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

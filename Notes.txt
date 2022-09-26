@@ -21,6 +21,10 @@ Prototype Design :
 Builder Design :
 	Nesne örneði çýkarmayý hedefler.
 Fecade Design :
-	
+	Bir sürü methodu tekbir nesne içerisine koyup sadeleþtirme yapar.
 Adapter Design :
-	
+	Özellikle farklý sistemleri kendi sistemlerimize entegre edilmesi durumunda, kendi sistemimizin bozulmadan entegre olan sistemin bizimmiþ gibi 
+	davranmasýný saðlamaktýr.
+Composite Design :
+	Nesneler arasý hiyerarþi ve bu nesnelere istediðimiz zaman ulaþabilmektir.
+	Kaldým--
