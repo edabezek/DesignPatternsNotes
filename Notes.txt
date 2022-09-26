@@ -13,4 +13,14 @@ Singleton Design Pattern : Bir nesne örneðinden sadece bir kere üretilip , bu ne
 	Multi Thread çalýþýlan ortamlarda, eðer bir nesneyi ayný anda iki kullanýcý ister ve o nesne henüz üretilmemiþse ,bu nesneyi kilitleyip iþ 
 	bittikten sonra iþlemi gerçekleþtirebiliriz.Nesneyi üretme iþlemini Lock iþlemi ile yaparýz.
 Factory Method Design Pattern : 
+	Bu patternde amaç, yazýlýmda deðiþimi kontrol altýna almaktýr.
+Abstrack Factory Design Pattern :
+	Factory design patterne ak olarak hem toplu nesne kullanýmýnda nesnenin kullanýmýný kolaylaþtýrmak.
+Prototype Design :
+	Burada amaç nesne üretim maliyetlerini minimize etmektir.Nesnenin prototiplerini oluþturup klonluyoruz
+Builder Design :
+	Nesne örneði çýkarmayý hedefler.
+Fecade Design :
+	
+Adapter Design :
 	
