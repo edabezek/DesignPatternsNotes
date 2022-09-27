@@ -27,4 +27,11 @@ Adapter Design :
 	davranmasýný saðlamaktýr.
 Composite Design :
 	Nesneler arasý hiyerarþi ve bu nesnelere istediðimiz zaman ulaþabilmektir.
-	Kaldým--
+Proxy Design :
+	Cacheleme sistemine benzetebiliriz.
+Decorator Design :
+	Elimizde temel bir nesne mevcut iken bu nesneyi farklý koþullarda , farklý anlamlar yüklemek için kullanýlýr.
+	Örneðin araç kiralama sisteminde bazý kiþiler için , bazý dönemlerde özel hesaplamalar yapmak istersek veya araçla ilgili bazý özellikleri
+	farklý kiþiler için daha farklý sunmak istiyoruz.Bu þartlarda bu pattern kullanýlabilir.Bu design e-ticaret vs farklý ortamlarda kullanýlabilir.
+Bridge Design :
+	
